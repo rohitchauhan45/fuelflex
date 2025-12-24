@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans%3Aital%2Cwght%400%2C100%2E%2E900%3B1%2C100%2E%2E900%26family=Playfair+Display%3Aital%2Cwght%400%2C400%2E%2E900%3B1%2C400%2E%2E900%26family=Playfair%3Aital%2Copsz%2Cwght%400%2C5%2E%2E1200%2C300%2E%2E900%3B1%2C5%2E%2E1200%2C300%2E%2E900%26display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import "tailwindcss";
+
+
+* {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.6px;
+  font-size: 14px;
+  line-height: 18.2px;
+
+
+}
+.footer{
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.6px;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+
+
+
+h1 {
+  font-family: 'Crimson Text', serif; /* Corrected property name and value */
+  font-size: 28px; /* Font size */
+}
+
+
+/* Your other CSS rules go here */
+
+/* Example usage */
+.mytext{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.mydescription {
+  font-family: "Playfair", serif;
+  letter-spacing: 1.3px; /* Adjusts spacing between letters */
+  font-size: medium; /* Default font size */
+  line-height: 1.6; /* Increases space between lines */
+ 
+}
+
+
+
+.ourstory {
+  font-family: "Playfair", serif;
+  letter-spacing: 1.3px; /* Adjusts spacing between letters */
+  font-size: medium; /* Default font size */
+  line-height: 1.6; /* Increases space between lines */
+  font-weight: 600;
+}
+.alldetailsname {
+  font-family: "Playfair", serif;
+  letter-spacing: 1.3px; /* Adjusts spacing between letters */
+  font-size: large; /* Default font size */
+  line-height: 1.6; /* Increases space between lines */
+  font-weight: 600;
+}
+
+.ourstoryform{
+  font-family: "Raleway", sans-serif;
+}
+
+.contactusdescription{
+  font-family: "Merriweather", serif;
+  font-size: large;
+  line-height: 2;
+}
+.alldetailsdescription{
+  font-family: "Merriweather", serif;
+  font-size:medium;
+  line-height: 2;
+}
+
+.paymentformtexts{
+  font-family: "Noto Sans", sans-serif;
+}
+
+.carttexts{
+  font-family: "Noto Sans", sans-serif;
+}
+
+.buynowtexts{
+  font-family: "Noto Sans", sans-serif;
+}
+.shoptexts{
+  font-family: "Noto Sans", sans-serif;
+  font-size: medium;
+}
