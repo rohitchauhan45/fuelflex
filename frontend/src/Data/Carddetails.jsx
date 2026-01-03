@@ -32,6 +32,9 @@ import Sesame_Oil_bottle_back from "../assets/Shop/WhiteSesame_back.png"
 import Sesame_Oil_15l from "../assets/Shop/Sesame_Dabbo.png"
 import woodPress_Almond_Oil_bottle_front from "../assets/Shop/Almond_front.jpg"
 import Coconut_Oil_15l from "../assets/Shop/Coconut_Dabbo.png"
+import Groundnut_filter_oil_front from "../assets/Shop/GroudNut_Filter_Front.png"
+import Groundnut_filter_oil_back from "../assets/Shop/GroundNut_Filter_back.png"
+
 
 const Carddetails = [
    {
@@ -81,10 +84,10 @@ const Carddetails = [
    },
    {
       id: 5,
-      name: "Groundnut oil with Pack of 1 liter",
+      name: "Groundnut Cold pressed oil with Pack of 1 liter",
       urls: "Groundnut_oil_with_Pack_of_1_liter",
       description: "A staple in Indian kitchens, especially in western and central regions, Fuelflex Cold Pressed Groundnut Oil enriches the taste of your meals while providing essential nutrients. With its high smoke point, it is perfect for deep frying, sautéing, and everyday cooking, ensuring your dishes remain flavorful and healthy. Fuelflex Cold Pressed Groundnut Oil is packed with natural goodness, extracted using traditional methods to preserve its purity and nutritional benefits. Made from premium-quality groundnuts, it is 100% unrefined, virgin, and free from chemicals or additives. This ensures that every drop of oil delivers nature’s finest for your health, heart, and well-being.",
-      price: "165",
+      price: "299",
       image1: Ground_Oil,
       image2: Ground_Oil_back,
       image3: Ground_Oil,
@@ -139,7 +142,7 @@ Choose Fuelflex for purity, taste, and well-being in every drop!`
       name: "Cold pressed groundnut oil with pack of 15 kg",
       urls: "Cold_pressed_groundnut_oil_with_pack_of_15_kg",
       description: "Upgrade your kitchen with Fuelflex Cold-Pressed Groundnut Oil! Also recognized globally as peanut oil and referred to as mungfali oil in India, groundnut oil comes in refined, filtered, and cold-pressed varieties. If you're seeking a healthier cooking option that supports heart health, cold-pressed groundnut oil is an excellent choice. It’s completely free of cholesterol and contains very low levels of trans fat, making it ideal for everyday meals. Choose the Fuelflex Gold cold-pressed groundnut oil 200ml pack today and enjoy the health benefits of this premium oil..",
-      price: "3,200",
+      price: "3200",
       image1: Cold_Groundnut_Oil,
       image2: Cold_Groundnut_Oil,
       image3: Cold_Groundnut_Oil,
@@ -174,7 +177,7 @@ Choose Fuelflex for purity, taste, and well-being in every drop!`
       name: "Groundnut Oil with pack of 15 kg",
       urls: "Groundnut Oil with pack of 15 kg",
       description: "A staple in Indian kitchens, especially in western and central regions, Fuelflex Cold Pressed Groundnut Oil enriches the taste of your meals while providing essential nutrients. With its high smoke point, it is perfect for deep frying, sautéing, and everyday cooking, ensuring your dishes remain flavorful and healthy. Fuelflex Cold Pressed Groundnut Oil is packed with natural goodness, extracted using traditional methods to preserve its purity and nutritional benefits. Made from premium-quality groundnuts, it is 100% unrefined, virgin, and free from chemicals or additives. This ensures that every drop of oil delivers nature’s finest for your health, heart, and well-being.",
-      price: "2,550",
+      price: "2550",
       image1: Groundnut_15_Oil,
       image2: Groundnut_15_Oil,
       image3: Groundnut_15_Oil,
@@ -287,6 +290,18 @@ Choose Fuelflex for purity, taste, and well-being in every drop!`
       image3: Sesame_Oil_15l,
       //sesame oil with pack of 15 kg
    },
+   {
+      id: 23,
+      name: "Groundnut filter oil with pack of 1 liter",
+      urls: "groundnut_filter_oil_with_1_liter",
+      description: "A staple in Indian kitchens, especially in western and central regions, Fuelflex Cold Pressed Groundnut Oil enriches the taste of your meals while providing essential nutrients. With its high smoke point, it is perfect for deep frying, sautéing, and everyday cooking, ensuring your dishes remain flavorful and healthy. Fuelflex Cold Pressed Groundnut Oil is packed with natural goodness, extracted using traditional methods to preserve its purity and nutritional benefits. Made from premium-quality groundnuts, it is 100% unrefined, virgin, and free from chemicals or additives. This ensures that every drop of oil delivers nature’s finest for your health, heart, and well-being.",
+      price: "170",
+      image1: Groundnut_filter_oil_front,
+      image2: Groundnut_filter_oil_back,
+      image3: Groundnut_filter_oil_front,
+      //groundnut filter oil with pack of 1 liter
+   },
+
 
 ]
 
