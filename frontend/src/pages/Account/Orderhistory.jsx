@@ -20,7 +20,7 @@ const OrderHistory = () => {
           withCredentials: true,
         });
 
-        setOrders(response.data.orders);
+        setOrders(response.data.orders || []);
         setEmail(response.data.email);
         setLoading(false);
       } catch (err) {
