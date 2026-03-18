@@ -19,7 +19,8 @@ import Sunflower_15_Oil from "../assets/Shop/Sunflower_15_Oil.jpg"
 import Choclate_Peanut_1250gm from "../assets/Shop/Choclate_Peanut_1250gm.png"
 import Natural_Peanut_1250gm from "../assets/Shop/Natural_Peanut_1250gm.jpg"
 import Natural_Peanut_back_1250gm from "../assets/Shop/Natural_Peanut_back_1250gm.png"
-import Natural_olive_oil_1L from "../assets/Shop/Natural_Olive_front.jpg"
+import Natural_olive_oil_1L_front from "../assets/Shop/Natural_Olive_front.jpg"
+import Natural_olive_oil_1L_back from "../assets/Shop/Natural_olive_oil_Back.png"
 
 const Carddetails = [
    {
@@ -105,10 +106,10 @@ const Carddetails = [
       name: "Natural olive oil with pack of 1 liter",
       urls: "Natural_olive_oil_with_pack_of_1L",
       description:"Cold-pressed olive oil is a true symbol of purity and nutrition, extracted from fresh olives using traditional methods to preserve its natural goodness. It is 100% unrefined, free from chemicals, additives, and artificial processing, ensuring maximum retention of vitamins and beneficial compounds. Every drop offers a perfect blend of flavor, health, and quality—making it an essential addition to your kitchen for both cooking and daily nourishment.",
-      price: "700",
-      image1: Natural_olive_oil_1L,
-      image2: Natural_olive_oil_1L,
-      image3: Natural_olive_oil_1L,
+      price: "949",
+      image1: Natural_olive_oil_1L_front,
+      image2: Natural_olive_oil_1L_back,
+      image3: Natural_olive_oil_1L_front,
       //natural of 1L
    },
 
